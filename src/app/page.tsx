@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -63,12 +63,12 @@ export default function Page() {
           <div className="mt-8 grid grid-cols-1 pt-10 gap-8 md:grid-cols-5">
             {/* About (왼쪽) */}
             <section className="md:col-span-2">
-              <h2 className="mb-2 text-[13.5px] font-bold leading-6">
+              <h2 className="mb-2 text-[12px] font-bold leading-6">
                 사용자의 여정을 고민하며, 더 나은 경험을 설계하는 프론트엔드
                 개발자입니다.
               </h2>
 
-              <p className="text-[13.5px] leading-7 text-zinc-800 tracking-tight">
+              <p className="text-[12px] leading-7 text-zinc-800 tracking-tight">
                 저는 단순히 기능을 구현하는 데 그치지 않고, 사용자의 흐름과
                 감정까지 고려한 ‘경험’을 만드는 프론트엔드 개발자입니다. 화면의
                 구성, 인터랙션, 퍼포먼스 하나하나가 사용자의 여정에 어떤 영향을
@@ -85,8 +85,8 @@ export default function Page() {
               </h2>
 
               {/* 회사/팀/기간 1줄 */}
-              <div className="flex flex-wrap items-center gap-2 text-[13.5px] leading-6">
-                <span className="font-semibold">청평기연환경</span>
+              <div className="flex flex-wrap items-center gap-2 text-[12px] leading-6">
+                <span className="font-semibold">청명기연환경</span>
                 <span className="rounded-full border border-zinc-300 px-2 py-[2px] text-[11px]">
                   환경질조사팀
                 </span>
@@ -94,7 +94,7 @@ export default function Page() {
               </div>
 
               {/* 상세 서술 */}
-              <p className="mt-2 text-[13.5px] leading-7 text-zinc-800 tracking-tight">
+              <p className="mt-2 text-[12px] leading-7 text-zinc-800 tracking-tight">
                 전국 각지의 산업 현장 및 생활환경 지역을 직접 방문하여 환경
                 실태를 조사하고, 대기·수질·토양 등의 시료를 채취했습니다. 수집한
                 시료를 분석 장비를 통해 실험하고, 데이터 기반으로 환경오염
@@ -118,7 +118,7 @@ export default function Page() {
               <h2 className="mb-3 text-lg font-bold">History</h2>
 
               {/* 타임라인: 각 li에 선을 붙이고 마지막 li는 선 숨김 */}
-              <ul className="text-[13.5px] text-zinc-800">
+              <ul className="text-[12px] text-zinc-800">
                 {/* 항목 1 */}
                 <li
                   className="
@@ -130,11 +130,11 @@ export default function Page() {
                   {/* ⬥ 다이아 */}
                   <span className="absolute left-3 top-1.5 h-1.5 w-1.5 -translate-x-1/2 rotate-45 bg-zinc-900" />
                   <div className="font-semibold">
-                    2017.03 - 2022.02{' '}
+                    2017.03 - 2022.02{" "}
                     <span className="text-zinc-500">[졸업]</span>
                   </div>
                   <div className="mt-1 text-zinc-600">
-                    한림성심대학교(3년제) · 환경공학과
+                    한림대학교(4년제) · 환경공학과
                   </div>
                 </li>
 
@@ -148,7 +148,7 @@ export default function Page() {
                 >
                   <span className="absolute left-3 top-1.5 h-1.5 w-1.5 -translate-x-1/2 rotate-45 bg-zinc-900" />
                   <div className="font-semibold">
-                    2014.03 - 2017.02{' '}
+                    2014.03 - 2017.02{" "}
                     <span className="text-zinc-500">[졸업]</span>
                   </div>
                   <div className="mt-1 text-zinc-600">마석고등학교</div>
@@ -162,7 +162,7 @@ export default function Page() {
 
               <div className="grid grid-cols-2 gap-x-16">
                 {/* 왼쪽 컬럼 */}
-                <ul className="space-y-1 text-[13.5px] text-zinc-800">
+                <ul className="space-y-1 text-[12px] text-zinc-800">
                   <li>Node.js</li>
                   <li>TypeScript</li>
                   <li>React</li>
@@ -175,7 +175,7 @@ export default function Page() {
                 </ul>
 
                 {/* 오른쪽 컬럼 */}
-                <ul className="space-y-1 text-[13.5px] text-zinc-800">
+                <ul className="space-y-1 text-[12px] text-zinc-800">
                   <li>GitHub</li>
                   <li>MySQL</li>
                   <li>Next.js</li>
@@ -243,7 +243,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     프로젝트 개요
                   </h4>
-                  <p className="mt-1 text-[13.5px] leading-7 text-zinc-800">
+                  <p className="mt-1 text-[12px] leading-7 text-zinc-800">
                     햄버거 예약·주문 웹사이트로 기획하고, 사용자가 메뉴를
                     살펴보고 장바구니에 담아 주문까지 완료할 수 있게
                     구현했습니다. 전체적인 UI/UX 설계와 햄버거 구매시 사용자
@@ -256,7 +256,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     주요 구현 내용
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div className="before:content-['⬥'] before:mr-1 text-zinc-900">
                       전체 UI/UX 설계 및 페이지 구성을 구성
                     </div>
@@ -277,7 +277,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     문제 상황
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div>
                       <span className="before:content-['⬥'] before:mr-1 font-semibold text-zinc-900">
                         로그인 기능 미구현
@@ -308,7 +308,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     향후 과제
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div>
                       <span className="before:content-['⬥'] before:mr-1 font-semibold text-zinc-900">
                         로그인/회원가입 기능 구현 및 UI 보완
@@ -410,7 +410,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     프로젝트 개요
                   </h4>
-                  <p className="mt-1 text-[13.5px] leading-7 text-zinc-800">
+                  <p className="mt-1 text-[12px] leading-7 text-zinc-800">
                     사용자가 자유롭게 도서 리뷰를 작성하고, 다른 사용자들과
                     소통할 수 있는 커뮤니티 기반 도서 리뷰 플랫폼입니다.
                   </p>
@@ -421,7 +421,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     주요 구현 내용
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div className="before:content-['⬥'] before:mr-1 text-zinc-900">
                       전체 UI/UX 기획 및 반응형 페이지 구성
                     </div>
@@ -446,7 +446,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     문제 상황
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div>
                       <span className="before:content-['⬥'] before:mr-1 font-semibold text-zinc-900">
                         불필요한 api 요청구조
@@ -466,7 +466,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     해결 방안
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div>
                       <span className="before:content-['⬥'] before:mr-1 font-semibold text-zinc-900">
                         비효율 구조 분석
@@ -517,7 +517,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     향후 과제
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div>
                       <span className="before:content-['⬥'] before:mr-1 font-semibold text-zinc-900">
                         요청구조에 대한 인증흐름
@@ -595,7 +595,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     프로젝트 개요
                   </h4>
-                  <p className="mt-1 text-[13.5px] leading-7 text-zinc-800">
+                  <p className="mt-1 text-[12px] leading-7 text-zinc-800">
                     사용자 맞춤 정보를 제공하고 예약/관리 기능을 중심으로 한 웹
                     서비스입니다. 전체 UI/UX를 설계하고 반응형 레이아웃과 디자인
                     시스템을 적용하여, 기기 환경에 따라 일관된 사용 경험을
@@ -608,7 +608,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     주요 구현 내용
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div className="before:content-['⬥'] before:mr-1 text-zinc-900">
                       전체 UI/UX 설계 및 메인/예약/마이페이지 구성
                     </div>
@@ -630,7 +630,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     문제 상황
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div>
                       <span className="before:content-['⬥'] before:mr-1 font-semibold text-zinc-900">
                         디렉토리/컴포넌트 경계 불명확
@@ -658,7 +658,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     해결 방안
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div>
                       <span className="before:content-['⬥'] before:mr-1 font-semibold text-zinc-900">
                         역할 기반 디렉토리 정리
@@ -685,7 +685,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     향후 과제
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div>
                       <span className="before:content-['⬥'] before:mr-1 font-semibold text-zinc-900">
                         초기 설계 프로세스 고도화
@@ -768,7 +768,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     프로젝트 개요
                   </h4>
-                  <p className="mt-1 text-[13.5px] leading-7 text-zinc-800">
+                  <p className="mt-1 text-[12px] leading-7 text-zinc-800">
                     Web3 기반의 음원 가치 평가를 위한 관리자 전용 설문
                     시스템입니다. 설문/항목 생성·배포, 응답 관리, 사용자/권한
                     관리(RBAC)와 기본 통계 확인 기능을 제공합니다. 메타마스크
@@ -784,7 +784,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     주요 구현 내용
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div className="before:content-['⬥'] before:mr-1 text-zinc-900">
                       관리자 대시보드: 설문/항목 생성·보관·배포,
                       사용자/역할(RBAC) 관리
@@ -807,7 +807,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     문제 상황
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div>
                       <span className="before:content-['⬥'] before:mr-1 font-semibold text-zinc-900">
                         디자인 전달 지연
@@ -843,7 +843,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     해결 방안
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div>
                       <span className="before:content-['⬥'] before:mr-1 font-semibold text-zinc-900">
                         디자인 시안 대응
@@ -879,7 +879,7 @@ export default function Page() {
                   <h4 className="text-[16px] font-extrabold tracking-tight text-zinc-900">
                     향후 과제
                   </h4>
-                  <div className="mt-2 space-y-3 text-[13.5px] leading-7">
+                  <div className="mt-2 space-y-3 text-[12px] leading-7">
                     <div className="before:content-['⬥'] before:mr-1 text-zinc-900">
                       지갑 서명 기반 인증 고도화 및 SBT/리워드 실환경 연동
                     </div>
@@ -966,7 +966,7 @@ export default function Page() {
 
               {/* Right: 내용 */}
               <section className="md:col-span-3 space-y-4">
-                <p className="text-[13.5px] leading-7 text-zinc-800">
+                <p className="text-[12px] leading-7 text-zinc-800">
                   “남에게 피해 주지 말고 살아라”는 부모님의 말씀은 제 삶의
                   가치관이 되었습니다. 단순히 조용히 지내라는 의미를 넘어,
                   책임감 있게 행동하고 타인을 배려하는 태도를 배우게 되었습니다.
@@ -980,7 +980,7 @@ export default function Page() {
                   흐름도나 노트를 작성하며 체계적으로 접근하려 노력하고
                   있습니다.
                 </p>
-                <p className="text-[13.5px] leading-7 text-zinc-800">
+                <p className="text-[12px] leading-7 text-zinc-800">
                   또한 ‘말보다 행동이 중요하다’는 신념으로, 새로운 기술은 반드시
                   직접 구현해보며 익히고 있습니다. DOM, React, Node.js, Solidity
                   등을 학습할 때도 예제 → 실습 → 프로젝트 적용의 단계를 반복하며
@@ -1007,7 +1007,7 @@ export default function Page() {
 
               {/* Right */}
               <section className="md:col-span-3 space-y-4">
-                <p className="text-[13.5px] leading-7 text-zinc-800">
+                <p className="text-[12px] leading-7 text-zinc-800">
                   저는 2021년 11월부터 2024년 3월까지 약 2년 4개월간 환경 전문
                   기업인 청명기연환경에서 근무했습니다. 환경질 측정팀 소속으로,
                   현장에 나가 대기·수질 등을 조사하고, 수집한 시료를 실험실에서
@@ -1023,7 +1023,7 @@ export default function Page() {
                   방식으로 정보를 기록하고 공유할 수 있을까?’라는 고민이
                   생겼습니다
                 </p>
-                <p className="text-[13.5px] leading-7 text-zinc-800">
+                <p className="text-[12px] leading-7 text-zinc-800">
                   그 과정에서 저는 블록체인 기술이 가진 불변성과 공개성이 이런
                   문제를 해결할 수 있는 가능성에 주목하게 되었고, 단순한
                   호기심을 넘어 문제를 기술로 해결하고 싶다는 확신이 생겼습니다.
@@ -1051,7 +1051,7 @@ export default function Page() {
 
               {/* Right */}
               <section className="md:col-span-3 space-y-4">
-                <p className="text-[13.5px] leading-7 text-zinc-800">
+                <p className="text-[12px] leading-7 text-zinc-800">
                   개발자 부트캠프에 참여해 약 8개월간 HTML, CSS, JS, Node.js,
                   React, TypeScript, Solidity 등 다양한 기술을 배웠고, AWS
                   배포와 TDD 기반 테스트도 경험했습니다. 총 4개의 프로젝트를
@@ -1078,7 +1078,7 @@ export default function Page() {
 
               {/* Right */}
               <section className="md:col-span-3 space-y-4">
-                <p className="text-[13.5px] leading-7 text-zinc-800">
+                <p className="text-[12px] leading-7 text-zinc-800">
                   교육과정 초반에는 프론트엔드 개발이 단순히 보기 좋은 화면을
                   만드는 일이라고 생각했습니다. ‘디자인은 디자이너의 영역인데,
                   개발자가 왜 UI/UX를 고민해야 할까?’라는 의문도 있었습니다.
@@ -1091,7 +1091,7 @@ export default function Page() {
                   최대한 감추고 누구나 쉽게 사용할 수 있는 UI 설계를 목표로
                   했습니다.
                 </p>
-                <p className="text-[13.5px] leading-7 text-zinc-800">
+                <p className="text-[12px] leading-7 text-zinc-800">
                   또한, 사용자의 이탈율과 관련된 UX 연구를 참고하여, 초기 화면
                   렌더링 속도를 줄이고 핵심 정보를 빠르게 전달하는 흐름을 설계한
                   경험도 있습니다. 신기술에만 집중하는 것이 아니라, 기술을
@@ -1115,7 +1115,7 @@ export default function Page() {
 
               {/* Right */}
               <section className="md:col-span-3 space-y-4">
-                <p className="text-[13.5px] leading-7 text-zinc-800">
+                <p className="text-[12px] leading-7 text-zinc-800 mb-20">
                   개발은 혼자서가 아니라 함께 만들어가는 작업이라는 점에서,
                   피해를 주지 않겠다는 삶의 태도는 큰 장점이 된다고 믿습니다.
                   주어진 역할을 책임감 있게 해내고, 팀에 보탬이 되는 개발자가
