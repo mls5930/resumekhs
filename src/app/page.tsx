@@ -90,7 +90,7 @@ export default function Page() {
                 <span className="rounded-full border border-zinc-300 px-2 py-[2px] text-[11px]">
                   환경질조사팀
                 </span>
-                <span className="ml-auto text-zinc-500">2023.03 - 2024.06</span>
+                <span className="ml-auto text-zinc-500">2021.11 - 2024.03</span>
               </div>
 
               {/* 상세 서술 */}
@@ -102,6 +102,29 @@ export default function Page() {
                 통해 기준 초과 여부 및 문제 원인을 도출하고 종합 보고서 작성에
                 참여했으며, 관련 법규와 조사 지침에 따라 조사 설계와 결과 해석을
                 수행했습니다.
+              </p>
+
+              {/* 회색 콜아웃 박스 */}
+
+              <div className="flex flex-wrap items-center gap-2 text-[12px] leading-6 mt-3">
+                <span className="font-semibold">경일게임 아카데미</span>
+                <span className="rounded-full border border-zinc-300 px-2 py-[2px] text-[11px]">
+                  프론트엔드, 블록체인
+                </span>
+                <span className="ml-auto text-zinc-500">2024.11 - 2025.08</span>
+              </div>
+
+              {/* 상세 서술 */}
+              <p className="mt-2 text-[12px] leading-7 text-zinc-800 tracking-tight">
+                체계적인 교육 과정을 통해 프론트엔드와 블록체인 기술을
+                집중적으로 학습했습니다. React와 Next.js를 기반으로 한 웹
+                애플리케이션 개발, Zustand와 Redux를 활용한 상태 관리, AWS 배포
+                및 데이터베이스 설계·연동까지 실무형 프로젝트 경험을 쌓았습니다.
+                특히 팀 프로젝트를 통해 기획·설계·구현·배포 전 과정을 경험하며,
+                사용자 요구사항을 분석하고 UI/UX를 개선하는 훈련을 받았습니다.
+                또한 블록체인 파트에서는 ERC-20, ERC-1155 토큰 표준과 스마트
+                컨트랙트 설계 및 배포를 직접 실습하여, 서비스 내 보상·인증
+                시스템을 구현할 수 있는 능력을 길렀습니다.
               </p>
 
               {/* 회색 콜아웃 박스 */}
@@ -123,7 +146,7 @@ export default function Page() {
                 <li
                   className="
       relative mb-5 pl-8
-      after:absolute after:left-3 after:top-3 after:h-16 after:w-px after:bg-zinc-500
+      after:absolute after:left-3 after:top-3 after:h-15 after:w-px after:bg-zinc-500
       last:after:hidden
     "
                 >
@@ -141,10 +164,10 @@ export default function Page() {
                 {/* 항목 2 */}
                 <li
                   className="
-      relative pl-8
-      after:absolute after:left-3 after:top-3 after:bottom-0 after:w-px after:bg-zinc-300
-      last:after:hidden
-    "
+    relative mb-5 pl-8
+    after:absolute after:left-3 after:top-3 after:bottom-0 after:w-px after:bg-zinc-500
+    last:after:hidden
+  "
                 >
                   <span className="absolute left-3 top-1.5 h-1.5 w-1.5 -translate-x-1/2 rotate-45 bg-zinc-900" />
                   <div className="font-semibold">
