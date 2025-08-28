@@ -770,7 +770,7 @@ export default function Page() {
                   <dl className="mt-2 space-y-1 text-[12px] leading-5 text-zinc-600">
                     <div className="flex gap-2">
                       <dt className="w-16 shrink-0">개발기간</dt>
-                      <dd>2025.05 - 2025.05 [27일]</dd>
+                      <dd>2025.06 - 2025.07 [32일]</dd>
                     </div>
                     <div className="flex gap-2">
                       <dt className="w-16 shrink-0">사용 기술</dt>
